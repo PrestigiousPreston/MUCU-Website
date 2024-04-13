@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- unicons iconscout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- custon css -->
     <link rel="stylesheet" href="custom.css">
     <title>Maseno University Christian Union</title>
     <style>
@@ -94,7 +99,6 @@
             </div>
         </div>
     </section>
-
     <!-- history & growth -->
     <section id="history">
         <div class="container-xl">
@@ -124,16 +128,39 @@
                 <p class="my-4 text-muted text-center">
                     At Maseno University Christian Union, our core values revolve around living for God and pursuing a holy life.
                 </p>
-                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center align-items-center">
                     <div class="col justify-content-center">
-                        <img class="" src=" Assets/icons/eye 2.svg " alt=" ">
-                        <h2>Our Vision</h2>
+                        <div class="text-center">
+                            <i class="bi bi-eye-fill" style="font-size: 4rem; color: orange;"></i>
+                        </div>
+                        <h2>
+                            <div class="display-6 text-center">Our Vision</div>
+                        </h2>
+                        <p class="text-muted text-center">
+                            Living as True Disciples of Jesus Christ.
+                        </p>
                     </div>
                     <div class="col ">
-                        <img src="Assets/icons/rocket 1.svg " alt=" ">
+                        <div class="text-center">
+                            <i class="bi bi-rocket-takeoff" style="text-align: center; font-size: 4rem; color: blue;"></i>
+                        </div>
+                        <h2>
+                            <div class="display-6 text-center">Our Mission</div>
+                        </h2>
+                        <p class="text-muted text-center">
+                            Nurturing belief in Christ & Developing Christ-like character.
+                        </p>
                     </div>
                     <div class="col ">
-                        <img src="Assets/icons/bullseye 1.svg " alt=" ">
+                        <div class="text-center">
+                            <i class="bi bi-bullseye" style="font-size: 4rem; color: green;"></i>
+                        </div>
+                        <h2>
+                            <div class="display-6 text-center">Our Goals</div>
+                        </h2>
+                        <p class="text-muted text-center">
+                            Discipleship, Evangelism & Leadership Development.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -142,7 +169,7 @@
     <!-- benefits -->
     <section id="benefits ">
         <div class="container-xl ">
-            <div class="row justify-content-center align-items-center ">
+            <div class="row justify-content-center align-items-center">
                 <div class="col-md-6 text-center text-md-start ">
                     <h1>
                         <div class="display-4 ">Experience Spiritual Growth and Community Support
@@ -229,13 +256,106 @@
         </div>
     </section>
     <!-- events -->
-
+<section id="events">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Events</h2>
+            <p>Stay updated on the latest events and meetings happening at Maseno University Christian Union.</p>
+        </div>
+        <div class="tab-nav-bar">
+            <div class="tab-navigation">
+                <i class="uil uil-angle-left left-btn"></i>
+                <i class="uil uil-angle-right right-btn"></i>
+                <ul class="tab-menu">
+                    <li class="tab-btn active">View All</li>
+                    <li class="tab-btn">Fellowship</li>
+                    <li class="tab-btn">Worship</li>
+                    <li class="tab-btn">Prayer</li>
+                    <li class="tab-btn">Bible Study</li>
+                    <li class="tab-btn">Outreach</li>
+                    <li class="tab-btn">Training</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- FAQs -->
-
+<section id="FAQs">
+    <div class="container-md">
+        <div class="text-center">
+            <h2>FAQs</h2>
+            <p class="lead text-muted">Find answers to frequently asked questions about the Maseno University Christian Union and membership.</p>
+        </div>
+        <div class="row my-4 justify-content-around align-items-center">
+            <div class="text-center col-6 col-lg-4">
+                <i class="bi bi-person-raised-hand" style="font-size: 10rem; color: #a16868;"></i>
+            </div>
+            <div class="col-lg-6">
+                <!-- accordion -->
+                <div class="accordion" id="questions">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne" aria-expanded="true" aria-controls="questionOne">
+                          What is a Christian Union?
+                        </button>
+                      </h2>
+                      <div id="questionOne" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, nemo, magnam, quo in dolore non officia quisquam placeat facilis nisi sunt qui ea labore fugit. Necessitatibus, minima. Voluptate, repellendus laborum.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading-2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">
+                          Who can join?
+                        </button>
+                      </h2>
+                      <div id="questionTwo" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo omnis et quia molestiae obcaecati voluptatem temporibus culpa impedit fugit in.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading-3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree" aria-expanded="false" aria-controls="questionThree">
+                          What ministries are available?
+                        </button>
+                      </h2>
+                      <div id="questionThree" class="accordion-collapse collapse" aria-labelledby="heading-3" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eaque asperiores reiciendis deleniti laborum sit quae obcaecati facere vitae architecto!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading-4">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour" aria-expanded="false" aria-controls="questionFour">
+                            How can I get involved?
+                          </button>
+                        </h2>
+                        <div id="questionFour" class="accordion-collapse collapse" aria-labelledby="heading-4" data-bs-parent="#questions">
+                          <div class="accordion-body">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eaque asperiores reiciendis deleniti laborum sit quae obcaecati facere vitae architecto!
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- CTA -->
 
     <!-- footer -->
+    <section id="footer">
+        <div class="container-lg">
+            
+        </div>
+    </section>
 
+    <!-- bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous "></script>
 </body>
 

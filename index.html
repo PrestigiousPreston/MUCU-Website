@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <style>
         section {
-            padding: 48px 0;
+            padding: 16px 0;
         }
         /* theme button styles */
         .btn-bd-primary {
@@ -136,14 +136,14 @@
             <title>chevron-right</title><g fill="#212121"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"></path></g>
         </symbol>
     </svg>
-    <!-- header -->
-    <header class="sticky-to py-2 mb-3 text-bg-primary">
+    <!-- main header -->
+    <header id="header" class="sticky-top pt-1 mb-3 text-bg-primary">
         <!-- navbar -->        
         <div class="container-xxl d-flex flex-wrap align-items-center justify-content-around justify-content-sm-center">
             <!-- navbar-brand -->                
-            <a href="#" class="nav col-lg-2 col-xl-auto navbar-brand d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <a href="index.html" class="nav col-lg-2 col-xl-auto navbar-brand d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
                 <svg width="40" height="32" xlmns="http://www.w3.org/2000/svg"><rect width="100%" height="100%" fill="white"/>
-                <svg class="bi me-2" background-color="white" width="40" height="32"><use xlink:href="#mucu"></use></svg>
+                <svg class="bi me-2" width="40" height="32"><use xlink:href="#mucu"></use></svg>
                 </svg>MUCU
             </a>
             <!-- more nav -->
@@ -154,9 +154,9 @@
                 <ul class="dropdown-menu text-small shadow" style="">
                   <li><a class="dropdown-item" href="#">Leadership</a></li>
                   <li><a class="dropdown-item" href="#">Noticeboard</a></li>
-                  <li><a class="dropdown-item" href="#">Resources</a></li>
+                  <li><a class="dropdown-item" href="#resources">Resources</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Reach out</a></li>
+                  <li><a class="dropdown-item" href="#reachout">Reach out</a></li>
                 </ul>
               </div>
             <!-- mobile nav -->
@@ -165,7 +165,7 @@
                   <svg class="bi me-2" width="24" height="24"><use xlink:href="#menu"></use></svg>
               </a>
               <ul class="dropdown-menu text-small shadow" style="">
-                <li><a class="dropdown-item active" href="#" aria-current="page">Home</a></li>
+                <li><a class="dropdown-item active" href="index.html" aria-current="page">Home</a></li>
                 <li><a class="dropdown-item" href="#">About Us</a></li>
                 <li><a class="dropdown-item" href="#">Services</a></li>
                 <li><a class="dropdown-item" href="#">Ministries</a></li>
@@ -178,11 +178,11 @@
                   </li>
               </ul>
             </div>
+            <!-- navbar links -->
             <nav class="p-0 navbar-expand-sm">
-                <!-- navbar links -->
                 <div class="collapse navbar-collapse">                        
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                        <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
                         <li><a href="#" class="nav-link px-2 text-white">About Us</a></li>
                         <li><a href="#" class="nav-link px-2 text-white">Services</a></li>
                         <li><a href="#" class="nav-link px-2 text-white">Ministries</a></li>
@@ -199,9 +199,9 @@
                             <ul class="dropdown-menu text-small">
                               <li><a class="dropdown-item" href="#">Leadership</a></li>
                               <li><a class="dropdown-item" href="#">Noticeboard</a></li>
-                              <li><a class="dropdown-item" href="#">Resources</a></li>
+                              <li><a class="dropdown-item" href="#resources">Resources</a></li>
                               <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Reach Out</a></li>
+                              <li><a class="dropdown-item" href="#reachout">Reach Out</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -219,23 +219,68 @@
                 </div>
             </div>
         </div>
-      </header>
+    </header>
     <!-- hero area -->
     <section id="hero">
         <div class="container-xl">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-4 text-center text-md-start">
-                    <h1>
-                        <div class="display-2">Welcome to</div>
-                        <div class="display-5 text-muted">Maseno University Christian Union!</div>
-                    </h1>
-                    <p class="lead my-4 text-muted">We are a group of committed young men and women living for God and pursuing a holy life. Join us in our journey of faith.</p>
-                    <a href="#register" id="joinus" class="btn btn-warning btn-md">Join Us</a>
-                    <a href="#about" id="learnmore" class="btn btn-outline-success btn-md ms-2 border-2">Learn More</a>
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
                 </div>
-                <div class="col-md-4 text-center">
-                    <img class="img-fluid d-none d-md-block" src="https://placehold.co/700x500" alt="">
+                <div class="carousel-inner ">
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>
+                            <div class="display-2">Welcome to</div>
+                            <div class="display-5 text-muted">Maseno University Christian Union!</div>
+                        </h1>
+                        <p class="lead mt-2 mb-1 text-muted">We are a group of committed young men and women living for God and pursuing a holy life.</p>
+                        <p class="lead mt-0 text-muted">Join us in our journey of faith.</p>
+                        <p><a class="btn btn-md btn-warning" href="#register" id="joinus">Join Us</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>
+                            <div class="display-2">Welcome to</div>
+                            <div class="display-5 text-muted">Maseno University Christian Union!</div>
+                        </h1>
+                        <p class="lead mt-2 mb-1 text-muted">We are a group of committed young men and women living for God and pursuing a holy life.</p>
+                        <p class="lead mt-0 text-muted">Join us in our journey of faith.</p>
+                        <p><a class="btn btn-md btn-outline-success border-2" href="#about" id="learnmore">Learn more</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>
+                            <div class="display-2">Welcome to</div>
+                            <div class="display-5 text-muted">Maseno University Christian Union!</div>
+                        </h1>
+                        <p class="lead mt-2 mb-1 text-muted">We are a group of committed young men and women living for God and pursuing a holy life.</p>
+                        <p class="lead mt-0 text-muted">Join us in our journey of faith.</p>
+                        <p><a class="btn btn-md btn-primary" href="#contact" id="contactus">Contact Us</a></p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
@@ -330,7 +375,7 @@
 
     </section>
     <!-- resources -->
-    <section id="resources">
+    <section id="E-Library">
         <div class="container-xl">
             <div class="row justify-content-center align-items-center">
                 <div class="text-center">
@@ -729,7 +774,7 @@
     </section>
     <!-- footer -->
     <section id="footer">
-        <div class="container-xl">
+        <div class="rounded bg-body-secondary container-xl">
             <footer class="pt-5">
               <div class="row justify-content-center">
                 <div class="col-6 col-md-2 mb-3">
@@ -746,9 +791,9 @@
                 </div>
           
                 <div class="col-6 col-md-2 mb-3">
-                  <h5>Resources</h5>
+                  <h5 id="resources">Resources</h5>
                   <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blogs</a></li>
+                    <li class="nav-item mb-2"><a href="blogs.html" class="nav-link p-0 text-body-secondary">Blogs</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">E-Library</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gallery</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Sermons` Notes</a></li>
@@ -756,7 +801,7 @@
                 </div>
           
                 <div class="col-6 col-md-2 mb-3">
-                  <h5>Reach Out</h5>
+                  <h5 id="reachout">Reach Out</h5>
                   <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Need Jesus?</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Prayer Request</a></li>

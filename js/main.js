@@ -13,30 +13,30 @@
 // limitations under the License.
 
 
-// Javascript for header Scrollspy
+//========== Javascript for header Scrollspy==========//
 
 // get the header
-// var header = document.getElementById("header");
-// var lastScrollTop = 0;
+var header = document.getElementById("header");
+var lastScrollTop = 0;
 
-// // on scroll down, hide the header; on scroll up, show the header
-// window.addEventListener("scroll", function(){
-//     var currentScroll = window.scrollY || this.document.documentElement.scrollTop;
+// on scroll down, hide the header; on scroll up, show the header
+window.addEventListener("scroll", function(){
+    var currentScroll = window.scrollY || this.document.documentElement.scrollTop;
 
-//     if (currentScroll > lastScrollTop){
-//         // downscroll code
-//         header.style.top = "-100px"; //change this value as needed
-//     } else {
-//         // upscroll code
-//         header.style.top = 0;
-//     }
+    if (currentScroll > lastScrollTop){
+        // downscroll code
+        header.style.top = "-200px"; //change this value as needed
+    } else {
+        // upscroll code
+        header.style.top = 0;
+    }
 
-//     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // for mobile or negative scrolling
-// }, false);
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // for mobile or negative scrolling
+}, false);
 
 
 
-// Javascript for tab navigation horizontal scroll buttons
+//========== Javascript for tab navigation horizontal scroll buttons ==========//
 const btnLeft = document .querySelector(".left-btn");
 const btnRight = document .querySelector(".right-btn");
 const tabMenu = document .querySelector(".tab-menu");
@@ -77,7 +77,7 @@ window.onresize = function(){
     btnLeft.style.display = scrollLeftValue > 0 ? "block" : "none";
 }
 
-// Javascript to make the navigation draggable
+//========== Javascript to make the navigation draggable ==========//
 let activeDrag = false;
 
 tabMenu.addEventListener("mousemove", (drag) => {
@@ -96,7 +96,7 @@ tabMenu.addEventListener("mousedown", () => {
     activeDrag = true;
 });
 
-// Javascript to view tab contents on click tab buttons
+//========== Javascript to view tab contents on click tab buttons ==========//
 const tabs = document.querySelectorAll(".tab");
 const tabBtns = document.querySelectorAll(".tab-btn");
 

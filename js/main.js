@@ -25,7 +25,7 @@ window.addEventListener("scroll", function(){
 
     if (currentScroll > lastScrollTop){
         // downscroll code
-        header.style.top = "-200px"; //change this value as needed
+        header.style.top = "-140px"; //change this value as needed
     } else {
         // upscroll code
         header.style.top = 0;

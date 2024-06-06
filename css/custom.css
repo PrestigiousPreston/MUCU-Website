@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 
-/* Google fonts */
+/* GOOGLE FONTS 
+================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-/* main css */
+/* MAIN CSS 
+================================================ */
 h1,h2,h3,h4,h5,h6 {
   font-family: "Playfair Display", serif;
 }
@@ -35,14 +37,137 @@ p {
   border-color: #25aae1;
 }
 
-:root{
-  --first-color: #2e2e41;
-  --second-color: #25aae1;
-  --third-color: #434354;
-  --text-color: #fff;
+/* SPINNER 
+================================================= */
+.spinner {
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  margin: 0 auto; /* Center the spinner horizontally */
+}
+.spinner-overlay {
+  position:sticky; 
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+  width: 100%; 
+  height: 100%;
+}
 
-  --box-shadow: 0 5px 45px rgb(2, 2, 2, 0.1);
-  --text-shadow: 0 5px 45px rgb(2, 2, 2, 0.1);
+/* SCROLLSPY 
+================================================== */
+header {
+  transition: top 0.8s ease-in-out;
+  position: fixed;
+  top: 0;
+}
+
+section {
+  padding: 32px 0;
+}
+
+/* ACTIVE LINK 
+===================================================== */
+.nav-link.active {
+  /* background-color: #e9ecef; */
+  font-weight: bold;
+}
+
+
+/* THEME BUTTON STYLES
+==================================================== */
+.btn-bd-primary {
+--bd-beige-bg: #f9b160;
+--bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+--bs-btn-font-weight: 600;
+--bs-btn-color: var(--bs-white);
+--bs-btn-bg: var(--bd-beige-bg);
+--bs-btn-border-color: var(--bd-beige-bg);
+--bs-btn-hover-color: var(--bs-white);
+--bs-btn-hover-bg: #fbaf40;
+--bs-btn-hover-border-color: #fbaf40;
+--bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+--bs-btn-active-color: var(--bs-btn-hover-color);
+--bs-btn-active-bg: #f89e36;
+--bs-btn-active-border-color: #f89e36;
+}        
+.bd-mode-toggle {
+z-index: 1500;
+}
+.bd-mode-toggle .dropdown-menu .active .bi {
+display: block !important;
+}
+
+/* BACKGROUND IMAGE 
+======================================================= */
+.custom-bg {
+  background-image: url('Frontend Assets/Images/light_christian_bg.jpg');  /* Replace with your image path */
+  background-repeat: repeat-x;  /* Optional: Controls how the image repeats */
+  background-position: center;  /* Optional: Controls the position of the image */
+}
+
+/* GOOGLE MAP I-FRAME
+======================================================== */
+iframe{
+  width: 100%;
+  height: 360px;
+}
+
+/* CONTACT INFO */
+.contact-link {
+  text-decoration: none; /* Remove underline */
+}
+
+/* LIGHT THEME STYLES 
+--------------------------------------------------*/
+html:not([data-bs-theme="dark"]) .my-footer {
+  background-color: #FBDBAE;
+}
+html:not([data-bs-theme="dark"]) .home-cta {
+  background-color: #99DCBA;
+}
+
+/* DARK THEME STYLES 
+--------------------------------------------------*/
+html[data-bs-theme="dark"] .my-footer {
+  background-color: #3D3830;
+}
+html[data-bs-theme="dark"] .home-cta {
+  background-color: #007D3D;
+}
+html[data-bs-theme="dark"] .map-iframe {
+  filter: invert(100%);
+}
+
+
+/* Show content on mobile small devices (ms) only */
+@media (max-width: 0px) {
+  .mobile-s {
+    display: block;
+  }
+}
+
+/* Hide content on mobile medium devices (mm) and above */
+@media (min-width: 375px) {
+  .mobile-s {
+    display: none;
+  }
+}
+
+/* Hide content on extra small devices (xs) */
+@media (max-width: 375px) {
+  .content-to-hide-xs {
+    display: none;
+  }
+}
+
+
+/* Show content on mobile medium devices (mm) and above */
+@media (min-width: 375px) {
+  .mobile-m {
+    display: block;
+  }
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -89,6 +214,16 @@ p {
 
 /* CUSTOMIZE THE EVENTS 
 -------------------------------------------------- */
+:root{
+  --first-color: #2e2e41;
+  --second-color: #25aae1;
+  --third-color: #434354;
+  --text-color: #fff;
+
+  --box-shadow: 0 5px 45px rgb(2, 2, 2, 0.1);
+  --text-shadow: 0 5px 45px rgb(2, 2, 2, 0.1);
+}
+
 .events{
     position: relative;
     transition: 0.5s ease;
@@ -186,21 +321,20 @@ p {
 /* tab content*/
 .tab-content{
   position: relative;
-  display: flex;
   justify-content: center;
 }
 
 .tab{
   right: auto;
   left: auto;
-  max-width: 1100px;
-  padding: 1px 1px;
+  max-width: 1200px;
   transform: translateX(25px);
   content-visibility: hidden;
   opacity: 0;
 }
 
 .tab.active{
+  max-width: 1200px;
   transform: translateX(0);
   content-visibility: visible;
   opacity: 1;

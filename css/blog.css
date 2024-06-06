@@ -37,3 +37,16 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.25rem;
   color: #727272;
 }
+
+
+/* LIGHT THEME STYLES 
+--------------------------------------------------*/
+html:not([data-bs-theme="dark"]) .blog-hero {
+  background-color: #66CA97;
+}
+
+/* DARK THEME STYLES 
+--------------------------------------------------*/
+html[data-bs-theme="dark"] .blog-hero {
+  background-color: #007D3D;
+}

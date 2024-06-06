@@ -35,6 +35,19 @@ window.addEventListener("scroll", function(){
 }, false);
 
 
+//========== Javascript for active nav-link==========//
+const navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+    link.setAttribute('aria-current', 'page'); // Or 'aria-selected="true"' if applicable
+  } else {
+    link.classList.remove('active');
+    link.removeAttribute('aria-current'); // Or remove 'aria-selected' attribute
+  }
+});
+
 
 //========== Javascript for tab navigation horizontal scroll buttons ==========//
 const btnLeft = document .querySelector(".left-btn");

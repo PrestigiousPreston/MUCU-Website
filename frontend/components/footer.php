@@ -72,9 +72,9 @@
     </section>
 
     <!-- main js -->
-    <script src="js/main.js"></script>
+    <script src="../scripts/main.js"></script>
     <!-- bootstrap JS -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/bootstrap.bundle.min.js"></script>
     
 </body>
 </html>

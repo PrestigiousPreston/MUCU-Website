@@ -1,18 +1,8 @@
-<!-- <?php
-session_start();
-
-// Check if the user is logged in, if not redirect to login page
-if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
-    exit;
-}
-?> -->
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-bs-theme="auto">
 
 <head>
-    <script src="/public/js/color-modes.js"></script>
+    <script src="../js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,8 +12,7 @@ if (!isset($_SESSION['username'])) {
     <title>Dashboard Maseno University Christian Union</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
-    <link href="/public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -106,7 +95,7 @@ if (!isset($_SESSION['username'])) {
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="/public/css/headers.css" rel="stylesheet">
+    <link href="../css/headers.css" rel="stylesheet">
 </head>
 
 <body>
@@ -180,6 +169,7 @@ if (!isset($_SESSION['username'])) {
     </div>
 
     <main>
+
         <!-- header -->
         <div class="container-xl">
             <header class="p-3 mb-3 border-bottom">
@@ -190,7 +180,7 @@ if (!isset($_SESSION['username'])) {
                             <svg width="40" height="32" xlmns="http://www.w3.org/2000/svg">
                                 <rect width="100%" height="100%" fill="white" />
                                 <svg class="bi me-2" width="40" height="32" aria-label="MUCU Logo">
-                                    <use xlink:href="assets/icons.svg#mucu"></use>
+                                    <use xlink:href="../assets/icons/icons.svg#mucu"></use>
                                 </svg>
                             </svg>
                         </a>
@@ -209,7 +199,7 @@ if (!isset($_SESSION['username'])) {
                             class="btn disabled btn-sm btn-success rounded-pill mb-2 mb-md-0 me-md-2 me-xl-auto mx-auto mx-sm-0">
                             <a class="icon-link link-body-emphasis text-decoration-none d-block">Online Giving
                                 <svg class="bi" width="64" height="64">
-                                    <use xlink:href="/public/assets/icons/icons.svg#give"
+                                    <use xlink:href="../assets/icons/icons.svg#give"
                                         style="fill: currentColor; color:invert;">
                                     </use>
                                 </svg>
@@ -223,7 +213,7 @@ if (!isset($_SESSION['username'])) {
                         <div class="dropdown text-end mb-2 mb-md-0 mx-auto mx-sm-0">
                             <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="/public/assets/images/User.jpg" alt="member" width="32" height="32"
+                                <img src="../assets/images/User.jpg" alt="member" width="32" height="32"
                                     class="rounded-circle">
                             </a>
                             <ul class="dropdown-menu text-small">
@@ -241,18 +231,11 @@ if (!isset($_SESSION['username'])) {
             </header>
         </div>
 
-        <!-- <div class="container-xl text-center">
-            <h2 class="display-4">Welcome to the Home Page</h2>
-            <p class="lead">Welcome,
-                <?php echo htmlspecialchars($_SESSION['username']); ?>! This will be your dashboard.
-            </p>
-        </div> -->
-
     </main>
 
 
     <!-- JavaScript -->
-    <script src="/public/js//bootstrap.bundle.min.js"></script>
+    <script src="../js//bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

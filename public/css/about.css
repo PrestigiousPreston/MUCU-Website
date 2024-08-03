@@ -1,0 +1,72 @@
+.slide-container {
+    margin: 0 20px;
+  }
+
+.card {
+  border-radius: 8px;
+  width: 312px;
+}
+
+.card .ministry-photo {
+    height: 200px;
+}
+
+.card .ministry-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+    object-fit: cover;
+}
+
+.card .ministry-details {
+    display: flex;
+    align-items: center;
+    columns: 12px;
+    padding: 2px;
+}
+
+.card .ministry-details img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.swiper-navButton {
+    color: black;
+    height: 32px;
+    width: 32px;
+    background: white;
+    border-radius: 50%;
+}
+
+.swiper-navButton::before,
+.swiper-navButton::after {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-navButton {
+      display: none;
+    }
+}
+
+/* ==================EVE TEAMS STYLES====================== */
+section .eveteam .evteam-logo{
+    padding: 2px;
+}
+
+section .eveteam img{
+    width: 100%;
+    height: 240px;
+}
+
+section .eveteam .evteam-logo img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.eveteams{
+    width: 356px;
+}

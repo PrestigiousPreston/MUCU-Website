@@ -128,7 +128,7 @@
         <!-- navbar -->
         <div class="container-xxl d-flex flex-wrap align-items-center justify-content-around justify-content-sm-center">
             <!-- navbar-brand -->
-            <a href="index.html"
+            <a href="index.php"
                 class="nav col-lg-1 col-xl-auto navbar-brand d-flex flex-auto justify-content-center align-items-center mx-xl-auto mt-2 mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
                 <svg width="40" height="32" xlmns="http://www.w3.org/2000/svg">
                     <rect width="100%" height="100%" fill="white" />
@@ -144,7 +144,7 @@
                     More
                 </a>
                 <ul class="dropdown-menu text-small shadow">
-                    <li><a class="dropdown-item" href="/app/views/leadership.html">Leadership</a></li>
+                    <li><a class="dropdown-item" href="/app/views/leadership.php">Leadership</a></li>
                     <li><a class="dropdown-item" href="#">Noticeboard</a></li>
                     <li><a class="dropdown-item" href="#resources">Resources</a></li>
                     <li>
@@ -164,12 +164,12 @@
                     </svg>
                 </a>
                 <ul class="dropdown-menu text-small shadow">
-                    <li><a class="dropdown-item active" href="/app/views/homepage.html" aria-current="page">Home</a>
+                    <li><a class="dropdown-item active" href="/docs/index.php" aria-current="page">Home</a>
                     </li>
-                    <li><a class="dropdown-item" href="/app/views/about.html">About Us</a></li>
-                    <li><a class="dropdown-item" href="/app/views/fellowships.html">Fellowships</a></li>
-                    <li><a class="dropdown-item" href="/app/views/ministries.html">Ministries</a></li>
-                    <li><a class="dropdown-item" href="/app/views/evteams.html">Evangelistic Teams</a></li>
+                    <li><a class="dropdown-item" href="/app/views/about.php">About Us</a></li>
+                    <li><a class="dropdown-item" href="/app/views/fellowships.php">Fellowships</a></li>
+                    <li><a class="dropdown-item" href="/app/views/ministries.php">Ministries</a></li>
+                    <li><a class="dropdown-item" href="/app/views/evteams.php">Evangelistic Teams</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
@@ -189,19 +189,19 @@
             <nav class="p-0 mb-1 mt-xl-2 mx-xl-auto border rounded navbar-expand-sm bg-primary" data-bs-theme="auto">
                 <div class="collapse navbar-collapse">
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li class="nav-item"><a href="/app/views/homepage.html"
+                        <li class="nav-item"><a href="/docs/index.php"
                                 class="nav-link px-2 link-body-emphasis active" aria-current="page">Home</a></li>
-                        <li class="nav-item"><a href="/app/views/about.html"
+                        <li class="nav-item"><a href="/app/views/about.php"
                                 class="nav-link px-2 link-body-emphasis">About
                                 Us</a>
                         </li>
-                        <li class="nav-item"><a href="/app/views/fellowships.html"
+                        <li class="nav-item"><a href="/app/views/fellowships.php"
                                 class="nav-link px-2 link-body-emphasis">Fellowships</a></li>
-                        <li class="nav-item"><a href="/app/views/ministries.html"
+                        <li class="nav-item"><a href="/app/views/ministries.php"
                                 class="nav-link px-2 link-body-emphasis">Ministries</a></li>
-                        <li class="nav-item"><a href="/app/views/evteams.html"
+                        <li class="nav-item"><a href="/app/views/evteams.php"
                                 class="nav-link px-2 link-body-emphasis">Evangelistic Teams</a>
-                        <li class="nav-item"><a href="/app/views/leadership.html"
+                        <li class="nav-item"><a href="/app/views/leadership.php"
                                 class="nav-link px-2 link-body-emphasis">Leadership</a>
                         </li>
                         <li class="nav-item d-none d-sm-inline dropdown text-end">
@@ -246,7 +246,7 @@
         </div>
     </header>
 
-    <!-- <?php include"components/header.html"; ?> -->
+    <?php include"app/components/header.php"; ?>
 
     <!-- hero area -->
     <section id="hero" style="height: 544px;">
@@ -299,7 +299,7 @@
                                     living
                                     for God and pursuing a holy life.</p>
                                 <p class="lead mt-0 text-muted">Join us in our journey of faith.</p>
-                                <p><a class="btn btn-md btn-outline-success border-2" href="/app/views/about.html"
+                                <p><a class="btn btn-md btn-outline-success border-2" href="/app/views/about.php"
                                         id="learnmore">Learn
                                         more</a></p>
                             </div>
@@ -333,6 +333,7 @@
             </div>
         </div>
     </section>
+
     <!-- history & growth -->
     <section id="history">
         <div class="container-xl">
@@ -351,7 +352,7 @@
                         foundation in discipleship, the Christian Union continues to impact lives and maintain stability
                         in
                         Christian faith.</p>
-                    <a href="/app/views/about.html" class="btn btn-outline-success btn-md ms-auto mb-2 border-2">Learn
+                    <a href="/app/views/about.php" class="btn btn-outline-success btn-md ms-auto mb-2 border-2">Learn
                         More</a>
                 </div>
                 <div class="col-md-6 text-center">
@@ -361,6 +362,7 @@
         </div>
     </section>
     <hr class="featurette-divider">
+
     <!-- vision, mission, goals -->
     <section id="goals&objectives">
         <div class="container-xl">
@@ -419,6 +421,7 @@
         </div>
     </section>
     <hr class="featurette-divider">
+
     <!-- benefits -->
     <section id="benefits">
         <div class="container-xl ">
@@ -450,6 +453,7 @@
         </div>
     </section>
     <hr class="featurette-divider">
+
     <!-- blogs -->
     <section id="blogs">
         <div class="container-xl">
@@ -475,7 +479,7 @@
                             <p><small>John Doe</small></p>
                             <p class="text-muted"><small>11 Jan 2024 ~ 5 min read</small></p>
                             <p class="mb-0 d-inline"><a class="icon-link icon-link-hover"
-                                    style="--bs-link-hover-color-rgb: 0, 166, 81;" href="/app/views/blogs.html#hgtml">
+                                    style="--bs-link-hover-color-rgb: 0, 166, 81;" href="/app/views/blogs.php#hgtml">
                                     Read more
                                     <svg class="bi" aria-hidden="true">
                                         <use xlink:href="/public/assets/icons/icons.svg#arrow-bar-right"></use>
@@ -499,7 +503,7 @@
                             <p><small>Jane Smith</small></p>
                             <p class="text-muted"><small>24 Feb 2024 ~ 3 min read</small></p>
                             <p class="mb-0 d-inline"><a class="icon-link icon-link-hover"
-                                    style="--bs-link-hover-color-rgb: 0, 166, 81;" href="/app/views/blogs.html#ofad">
+                                    style="--bs-link-hover-color-rgb: 0, 166, 81;" href="/app/views/blogs.php#ofad">
                                     Read more
                                     <svg class="bi" aria-hidden="true">
                                         <use xlink:href="/public/assets/icons/icons.svg#arrow-bar-right"></use>
@@ -526,7 +530,7 @@
                             <p class="text-muted"><small>16 Apr 2024 ~ 5 min read</small></p>
                             <p class="mb-0 d-inline">
                                 <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 0, 166, 81;"
-                                    href="/app/views/blogs.html#fpil">
+                                    href="/app/views/blogs.php#fpil">
                                     Read more
                                     <svg class="bi" aria-hidden="true">
                                         <use xlink:href="/public/assets/icons/icons.svg#arrow-bar-right"></use>
@@ -536,11 +540,12 @@
                         </div>
                     </div>
                 </div>
-                <a href="/app/views/blogs.html" class="btn col-3 col-lg-1 btn-success btn-sm mt-3">View all</a>
+                <a href="/app/views/blogs.php" class="btn col-3 col-lg-1 btn-success btn-sm mt-3">View all</a>
             </div>
         </div>
     </section>
     <hr class="featurette-divider">
+
     <!-- resources -->
     <section id="E-Library">
         <div class="container-xl">
@@ -614,6 +619,7 @@
         </div>
     </section>
     <hr class="featurette-divider">
+    
     <!-- events -->
     <section id="events">
         <!-- tab navigation -->
@@ -630,6 +636,7 @@
         <iframe src="/app/components/events.htm" title="Events"></iframe>
     </section>
     <hr class="featurette-divider">
+    
     <!-- leadership -->
     <section>
         <div class="container-xl">
@@ -643,12 +650,13 @@
         <!-- i-frame -->
         <iframe src="/app/components/leadership.htm" title="Events"></iframe>
         <div class="row justify-content-center align-items-center">
-            <a href="/app/views/leadership.html" target="_parent" rel="noreferrer"
+            <a href="/app/views/leadership.php" target="_parent" rel="noreferrer"
                 class="btn col-auto btn-success btn-sm mt-3">Meet
                 them all</a>
         </div>
     </section>
     <hr class="featurette-divider">
+
     <!-- FAQs -->
     <section id="FAQs">
         <div class="container-xl">
@@ -741,6 +749,7 @@
         </div>
     </section>
     <hr class="featurette-divider">
+
     <!-- CTA -->
     <section id="cta">
         <!-- jumbotron -->
@@ -765,6 +774,7 @@
             </div>
         </div>
     </section>
+
     <!-- contact -->
     <section id="contact">
         <div class="container-xl justify-content-center align-items-center">
@@ -811,8 +821,6 @@
         </div>
     </section>
 
-    <!-- <?php include"components/footer.html"; ?> -->
-
     <!-- footer -->
     <section id="footer" class="pb-2">
         <div class="rounded container-xl my-footer">
@@ -821,19 +829,19 @@
                     <div class="col-6 col-md-2 mb-3 text-center">
                         <h5>Our Pages</h5>
                         <ul class="nav nav-pills nav-fill flex-column">
-                            <li class="nav-item mb-2"><a href="/app/views/homepage.html"
+                            <li class="nav-item mb-2"><a href="/docs/index.php"
                                     class="active nav-link p-0 text-body-secondary" aria-current="page">Home</a></li>
-                            <li class="nav-item mb-2"><a href="/app/views/about.html"
+                            <li class="nav-item mb-2"><a href="/app/views/about.php"
                                     class="nav-link p-0 text-body-secondary">About</a></li>
-                            <li class="nav-item mb-2"><a href="/app/views/fellowships.html"
+                            <li class="nav-item mb-2"><a href="/app/views/fellowships.php"
                                     class="nav-link p-0 text-body-secondary">Fellowships`
                                     Events</a></li>
-                            <li class="nav-item mb-2"><a href="/app/views/ministries.html"
+                            <li class="nav-item mb-2"><a href="/app/views/ministries.php"
                                     class="nav-link p-0 text-body-secondary">Ministries</a></li>
-                            <li class="nav-item mb-2"><a href="/app/views/evteams.html"
+                            <li class="nav-item mb-2"><a href="/app/views/evteams.php"
                                     class="nav-link p-0 text-body-secondary">Evangelistic
                                     Teams</a></li>
-                            <li class="nav-item mb-2"><a href="/app/views/leadership.html"
+                            <li class="nav-item mb-2"><a href="/app/views/leadership.php"
                                     class="nav-link p-0 text-body-secondary">Leadership</a></li>
                             <li class="nav-item mb-2"><a href="/"
                                     class="nav-link p-0 text-body-secondary">Noticeboard</a></li>
@@ -843,14 +851,14 @@
                     <div class="col-6 col-md-2 mb-3 text-center">
                         <h5 id="resources">Resources</h5>
                         <ul class="nav flex-column nav-pills nav-fill">
-                            <li class="nav-item mb-2"><a href="/app/views/blogs.html"
+                            <li class="nav-item mb-2"><a href="/app/views/blogs.php"
                                     class="nav-link p-0 text-body-secondary">Blogs</a></li>
                             <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-body-secondary">E-Library</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="/app/views/gallery.html"
+                            <li class="nav-item mb-2"><a href="/app/views/gallery.php"
                                     class="nav-link p-0 text-body-secondary">Gallery</a>
                             </li>
-                            <li class="nav-item mb-2"><a href="/app/views/sermons.html"
+                            <li class="nav-item mb-2"><a href="/app/views/sermons.php"
                                     class="nav-link p-0 text-body-secondary">Sermons`
                                     Notes</a></li>
                         </ul>

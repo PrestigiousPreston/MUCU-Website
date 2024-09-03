@@ -196,13 +196,13 @@ if (!isset($_SESSION['username'])) {
                         </a>
                         <!-- nav -->
                         <ul class="nav col-12 col-sm-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                            <li><a href="homepage.html" class="nav-link px-2 active" aria-current="page">Dashboard</a>
+                            <li><a href="homepage.php" class="nav-link px-2 active" aria-current="page">Dashboard</a>
                             </li>
                             <li><a href="#" class="nav-link px-2 link-body-emphasis">Noticeboard</a></li>
-                            <li><a href="blogs.html" class="nav-link px-2 link-body-emphasis">Blogs</a></li>
+                            <li><a href="blogs.php" class="nav-link px-2 link-body-emphasis">Blogs</a></li>
                             <li><a href="/" class="nav-link px-2 link-body-emphasis">E-Library</a></li>
-                            <li><a href="sermons.html" class="nav-link px-2 link-body-emphasis">Sermons</a></li>
-                            <li><a href="gallery.html" class="nav-link px-2 link-body-emphasis">Gallery</a></li>
+                            <li><a href="sermons.php" class="nav-link px-2 link-body-emphasis">Sermons</a></li>
+                            <li><a href="gallery.php" class="nav-link px-2 link-body-emphasis">Gallery</a></li>
                         </ul>
                         <!-- online giving -->
                         <button type="button"

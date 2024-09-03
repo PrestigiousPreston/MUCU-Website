@@ -130,12 +130,12 @@
         <!-- navbar -->
         <div class="container-xxl d-flex flex-wrap align-items-center justify-content-around justify-content-sm-center">
             <!-- navbar-brand -->
-            <a href="index.php"
+            <a href="/docs/index.php"
                 class="nav col-lg-1 col-xl-auto navbar-brand d-flex flex-auto justify-content-center align-items-center mx-xl-auto mt-2 mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
                 <svg width="40" height="32" xlmns="http://www.w3.org/2000/svg">
                     <rect width="100%" height="100%" fill="white" />
                     <svg class="bi me-2" width="40" height="32">
-                        <use xlink:href="assets/icons.svg#mucu"></use>
+                        <use xlink:href="/public/assets/icons/icons.svg#mucu"></use>
                     </svg>
                 </svg><span class="ms-1 ms-lg-0 ms-xl-1 me-1 fw-bold" style="font-size: large;">MUCU</span>
             </a>
@@ -161,11 +161,11 @@
                     class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-body-emphasis text-decoration-none dropdown-toggle"
                     data-bs-toggle="dropdown" aria-expanded="false">
                     <svg class="bi me-2" width="24" height="24">
-                        <use xlink:href="assets/icons.svg#menu" style="fill: currentColor; color:invert;"></use>
+                        <use xlink:href="/public/assets/icons/icons.svg#menu" style="fill: currentColor; color:invert;"></use>
                     </svg>
                 </a>
                 <ul class="dropdown-menu text-small shadow">
-                    <li><a class="dropdown-item active" href="homepage.php" aria-current="page">Home</a></li>
+                    <li><a class="dropdown-item active" href="/docs/index.php" aria-current="page">Home</a></li>
                     <li><a class="dropdown-item" href="about.php">About Us</a></li>
                     <li><a class="dropdown-item" href="fellowships.php">Fellowships</a></li>
                     <li><a class="dropdown-item" href="ministries.php">Ministries</a></li>
@@ -177,7 +177,7 @@
                         <a class="dropdown-item icon-link disabled"
                             style="--bs-link-hover-color-rgb: 25, 135, 84;">Online Giving
                             <svg class="bi" width="64" height="64">
-                                <use xlink:href="assets/icons.svg#give" style="fill: currentColor; color:invert;">
+                                <use xlink:href="/public/assets/icons/icons.svg#give" style="fill: currentColor; color:invert;">
                                 </use>
                             </svg>
                         </a>
@@ -188,7 +188,7 @@
             <nav class="p-0 mb-1 mt-xl-2 mx-xl-auto border rounded navbar-expand-sm bg-primary" data-bs-theme="auto">
                 <div class="collapse navbar-collapse">
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                        <li class="nav-item"><a href="homepage.php" class="nav-link px-2 link-body-emphasis active"
+                        <li class="nav-item"><a href="/docs/index.php" class="nav-link px-2 link-body-emphasis active"
                                 aria-current="page">Home</a></li>
                         <li class="nav-item"><a href="about.php" class="nav-link px-2 link-body-emphasis">About
                                 Us</a>
@@ -197,7 +197,7 @@
                                 class="nav-link px-2 link-body-emphasis">Fellowships</a></li>
                         <li class="nav-item"><a href="ministries.php"
                                 class="nav-link px-2 link-body-emphasis">Ministries</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 link-body-emphasis">Evangelistic Teams</a>
+                        <li class="nav-item"><a href="evteams.php" class="nav-link px-2 link-body-emphasis">Evangelistic Teams</a>
                         <li class="nav-item"><a href="leadership.php"
                                 class="nav-link px-2 link-body-emphasis">Leadership</a>
                         </li>
@@ -211,7 +211,7 @@
                                     <a class="dropdown-item icon-link disabled"
                                         style="--bs-link-hover-color-rgb: 25, 135, 84;">Online Giving
                                         <svg class="bi" width="64" height="64">
-                                            <use xlink:href="assets/icons.svg#give"
+                                            <use xlink:href="/public/assets/icons/icons.svg#give"
                                                 style="fill: currentColor; color:invert;">
                                             </use>
                                         </svg>

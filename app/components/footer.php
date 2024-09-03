@@ -6,16 +6,16 @@
                     <div class="col-6 col-md-2 mb-3 text-center">
                         <h5>Our Pages</h5>
                         <ul class="nav nav-pills nav-fill flex-column">
-                            <li class="nav-item mb-2"><a href="homepage.php" class="active nav-link p-0 text-body-secondary"
+                            <li class="nav-item mb-2"><a href="/docs/index.php" class="active nav-link p-0 text-body-secondary"
                                     aria-current="page">Home</a></li>
                             <li class="nav-item mb-2"><a href="about.php"
                                     class="nav-link p-0 text-body-secondary">About</a></li>
                             <li class="nav-item mb-2"><a href="fellowships.php"
                                     class="nav-link p-0 text-body-secondary">Fellowships`
                                     Events</a></li>
-                            <li class="nav-item mb-2"><a href="#"
+                            <li class="nav-item mb-2"><a href="ministries.php"
                                     class="nav-link p-0 text-body-secondary">Ministries</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Evangelistic
+                            <li class="nav-item mb-2"><a href="evteams.php" class="nav-link p-0 text-body-secondary">Evangelistic
                                     Teams</a></li>
                             <li class="nav-item mb-2"><a href="leadership.php"
                                     class="nav-link p-0 text-body-secondary">Leadership</a></li>
@@ -59,25 +59,25 @@
                         <ul class="nav flex-column">
                             <li class="nav-item mb-2"><a class="nav-link p-0" href="https://www.facebook.com/Masenocu/"
                                     target="_blank"><svg class="bi text-body-primary" width="20" height="20">
-                                        <use xlink:href="assets/icons.svg#facebook"></use>
+                                        <use xlink:href="/public/assets/icons/icons.svg#facebook"></use>
                                     </svg> Facebook</a></li>
                             <li class="nav-item mb-2"><a class="nav-link p-0"
                                     href="https://whatsapp.com/channel/0029VaCqwFSIt5ryXrSNeN3w" target="_blank"><svg
                                         class="bi text-body-secondary" width="20" height="20">
-                                        <use xlink:href="assets/icons.svg#whatsapp"></use>
+                                        <use xlink:href="/public/assets/icons/icons.svg#whatsapp"></use>
                                     </svg> WhatsApp</a></li>
                             <li class="nav-item mb-2"><a class="nav-link p-0" href="http://www.youtube.com/@maseno_cu"
                                     target="_blank"><svg class="bi text-body-secondary" width="20" height="20">
-                                        <use xlink:href="assets/icons.svg#youtube"></use>
+                                        <use xlink:href="/public/assets/icons/icons.svg#youtube"></use>
                                     </svg> YouTube</a></li>
                             <li class="nav-item mb-2"><a class="nav-link p-0"
                                     href="https://www.instagram.com/maseno_cu/" target="_blank"><svg
                                         class="bi text-body-secondary" width="20" height="20">
-                                        <use xlink:href="assets/icons.svg#instagram"></use>
+                                        <use xlink:href="/public/assets/icons/icons.svg#instagram"></use>
                                     </svg> Instagram</a></li>
                             <li class="nav-item mb-2"><a class="nav-link p-0" href="https://twitter.com/Maseno_CU"
                                     target="_blank"><svg class="bi text-body-secondary" width="20" height="20">
-                                        <use xlink:href="assets/icons.svg#twitter-x"></use>
+                                        <use xlink:href="/public/assets/icons/icons.svg#twitter-x"></use>
                                     </svg> X</a></li>
                         </ul>
                     </div>
@@ -109,11 +109,9 @@
         </div>
     </section>
 
-    <!-- main js -->
-    <script src="../scripts/main.js"></script>
-    <!-- bootstrap JS -->
-    <script src="../scripts/bootstrap.bundle.min.js"></script>
-
+    <!-- Swiper JS -->
+    <script src="../js/swiper-bundle.min.js"></script>
+    
     </body>
 
     </html>

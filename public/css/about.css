@@ -52,27 +52,24 @@
 
 /* ==================EVE TEAMS STYLES====================== */
 section .eveteam .evteam-logo{
-    padding: 2px;
+    padding: 3px;
 }
 
 section .eveteam .evteam-logo img{
     width: 128px;
     height: 128px;
     border-radius: 50%;
+    border: 3px solid #eb3136;
     z-index: 100;
 }
 
-/* .eveteams{
-    width: 340px;
-    margin: 340px;
-} */
 
 .eveteam::before{
     content: "";
     position: absolute;
     height: 45%;
     width: 100%;
-    background: rgb(25, 25, 136);
+    background: #2f317f;
     border-radius: 8px 8px 0 0;
 }
 

@@ -246,8 +246,6 @@
         </div>
     </header>
 
-    <?php include"app/components/header.php"; ?>
-
     <!-- hero area -->
     <section id="hero" style="height: 544px;">
         <div class="container-xl">
